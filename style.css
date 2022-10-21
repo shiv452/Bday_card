@@ -94,7 +94,7 @@ p
 
 /*music*/
 .content {
-  width: 100%;
+  width: 50%;
   position: absolute;
   top: 30%;
 }
@@ -105,17 +105,18 @@ p
 
 .right-col {
   float: right;
-  margin-right: 2%;
   margin-bottom: 90px;
   display: flex;
   align-items: center;
 }
 
 .right-col p {
-  font-size: 18px;
+  font-size: 30px;
   color: whitesmoke;
   font-weight: 400;
-  margin-right: 15px;
+  margin-left: 15px;
+  bottom: 20px;
+
 }
 
 #icon {
