@@ -83,9 +83,42 @@ h1
     background-position: 200% center;
   }
 }
-p{
+
+p
+{
     position: absolute;
     font-size: 160px;
     margin-top: 450px;
     margin-left: 1200px;
+}
+
+/*music*/
+.content {
+  width: 100%;
+  position: absolute;
+  top: 30%;
+}
+
+.left-col {
+  margin-left: 2%;
+}
+
+.right-col {
+  float: right;
+  margin-right: 2%;
+  margin-bottom: 90px;
+  display: flex;
+  align-items: center;
+}
+
+.right-col p {
+  font-size: 18px;
+  color: whitesmoke;
+  font-weight: 400;
+  margin-right: 15px;
+}
+
+#icon {
+  width: 80px;
+  cursor: pointer;
 }
